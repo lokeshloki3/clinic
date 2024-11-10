@@ -5,6 +5,10 @@ import dropdown_icon from "./dropdown_icon.svg";
 import menu_icon from "./menu_icon.svg";
 import cross_icon from "./cross_icon.png";
 import arrow_icon from "./arrow_icon.svg";
+import expe1 from "./expe1.jpg";
+import expe2 from "./expe2.jpg";
+import expe3 from "./expe3.jpg";
+import expe4 from "./expe4.jpg";
 
 import SpeechandLanguageTherapy from "./SpeechandLanguageTherapy.png";
 import VoiceTherapy from "./VoiceTherapy.png";
@@ -25,6 +29,10 @@ export const assets = {
   menu_icon,
   cross_icon,
   dropdown_icon,
+  expe1,
+  expe2,
+  expe3,
+  expe4,
 };
 
 export const specialityData = [
