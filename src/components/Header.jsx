@@ -10,15 +10,16 @@ const Header = () => {
 
   return (
     <div
-      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20"
+      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 bg-blue-600"
       style={{
         backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        // backgroundPosition: 'left',
         // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
       }}
     >
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
+      {/* <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]"> */}
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px] lg:mt-[-90px] lg:mb-0">
         <p className="text-3xl md:text-4xl lg:text-4xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
           Empowering Communication and <br /> Hearing Health, All Online
         </p>
