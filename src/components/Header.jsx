@@ -9,7 +9,15 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-row flex-wrap bg-blue-500 rounded-lg px-6 md:px-10 lg:px-20">
+    <div
+      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20"
+      style={{
+        backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
+      }}
+    >
       <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
         <p className="text-3xl md:text-4xl lg:text-4xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
           Empowering Communication and <br /> Hearing Health, All Online
@@ -19,7 +27,7 @@ const Header = () => {
           className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 translate-all duration-300"
         >
           Consult with our Specialists{" "}
-          <img className="w-3" src={assets.arrow_icon} alt="" />
+          <img className="w-3" src={assets.arrow_icon} alt="Arrow Icon" />
         </button>
       </div>
 
@@ -29,12 +37,21 @@ const Header = () => {
           src={assets.header_img}
           alt="Header"
         />
-        <p className="text-center text-white mt-4 text-sm md:text-base">
+        {/* <p className="text-center text-white mt-4 text-sm md:text-base">
           BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore
         </p>
         <p className="text-center text-white mt-1 text-sm md:text-base">
           EX-Audiologist AIIMS, Delhi
-        </p>
+        </p> */}
+        <div
+          className="text-center text-white mt-4 text-sm md:text-base py-4 px-6 rounded-lg"
+          style={{
+            backgroundColor: '#8376A1',
+          }}
+        >
+          <p>BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
+          <p>EX-Audiologist AIIMS, Delhi</p>
+        </div>
 
         {/* Experience Section */}
         <div className="flex justify-center gap-4 mt-2 mb-2">

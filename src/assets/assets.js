@@ -1,4 +1,5 @@
-import header_img from "./header_img.png";
+// import header_img from "./header_img.png";
+import header_img from "./header_imgg.jpg";
 import contact_image from "./contact_image.png";
 import about_image from "./about_image.png";
 import dropdown_icon from "./dropdown_icon.svg";
@@ -9,6 +10,7 @@ import expe1 from "./expe1.jpg";
 import expe2 from "./expe2.jpg";
 import expe3 from "./expe3.jpg";
 import expe4 from "./expe4.jpg";
+import backgroundImage from "./background.jpg"
 
 import SpeechandLanguageTherapy from "./SpeechandLanguageTherapy.png";
 import VoiceTherapy from "./VoiceTherapy.png";
@@ -33,6 +35,7 @@ export const assets = {
   expe2,
   expe3,
   expe4,
+  backgroundImage,
 };
 
 export const specialityData = [
