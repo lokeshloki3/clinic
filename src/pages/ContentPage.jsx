@@ -32,41 +32,13 @@ const ContentPage = () => {
 
         <h1 className="text-3xl font-bold mb-6 text-center">{selectedContent.title}</h1>
 
-        {/* Introduction Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">Introduction</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.introduction}</p>
-        </section>
-
-        {/* The Impact of Hearing Loss on Child Development Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">The Impact of Hearing Loss on Child Development</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.impact}</p>
-        </section>
-
-        {/* Screening Methods and Protocols Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">Screening Methods and Protocols</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.screeningMethods}</p>
-        </section>
-
-        {/* Research on Early Screening Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">Research on Early Screening</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.research}</p>
-        </section>
-
-        {/* Why Early Intervention is Crucial Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">Why Early Intervention is Crucial</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.whyEarlyIntervention}</p>
-        </section>
-
-        {/* Conclusion Section */}
-        <section>
-          <h2 className="text-2xl font-semibold text-gray-700 mt-8">Conclusion</h2>
-          <p className="text-gray-600 mt-2">{selectedContent.conclusion}</p>
-        </section>
+        {/* Dynamically Render Sections */}
+        {selectedContent.sections.map((section, index) => (
+          <section key={index}>
+            <h2 className="text-2xl font-semibold text-gray-700 mt-8">{section.heading}</h2>
+            <p className="text-gray-600 mt-2">{section.content}</p>
+          </section>
+        ))}
       </div>
     </div>
   );

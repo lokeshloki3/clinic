@@ -14,7 +14,7 @@ const Header = () => {
       style={{
         backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
         backgroundSize: 'cover',
-        // backgroundPosition: 'left',
+        // backgroundPosition: 'center',
         // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
       }}
     >
