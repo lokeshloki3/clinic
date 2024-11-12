@@ -32,7 +32,7 @@ const Header = () => {
         </button>
       </div>
 
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 bg-slate-100 rounded-lg ">
         <img
           className="w-full h-auto rounded-lg pt-6"
           src={assets.header_img}
@@ -45,17 +45,17 @@ const Header = () => {
           EX-Audiologist AIIMS, Delhi
         </p> */}
         <div
-          className="text-center text-white mt-4 text-sm md:text-base py-4 px-6 rounded-lg"
-          style={{
-            backgroundColor: '#8376A1',
-          }}
+          className="text-center text-black text-sm md:text-base py-4 px-6 rounded-lg"
+          // style={{
+          //   backgroundColor: '#8376A1',
+          // }}
         >
           <p>BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
           <p>EX-Audiologist AIIMS, Delhi</p>
         </div>
 
         {/* Experience Section */}
-        <div className="flex justify-center gap-4 mt-2 mb-2">
+        <div className="flex justify-center gap-4 mb-2">
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe1} alt="expe 1" />
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe2} alt="expe 2" />
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe3} alt="expe 3" />

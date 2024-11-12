@@ -1,5 +1,5 @@
-// import header_img from "./header_img.png";
-import header_img from "./header_imgg.jpg";
+import header_img from "./header_img.png";
+// import header_img from "./header_imgg.jpg";
 import contact_image from "./contact_image.png";
 import about_image from "./about_image.png";
 import dropdown_icon from "./dropdown_icon.svg";
