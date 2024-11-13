@@ -1,4 +1,7 @@
-import hearing4 from "./hearing4.jpg";
+import hearing1 from "./hearing1.jpg";
+import hearing2 from "./hearing2.jpg";
+import hearing3 from "./hearing3.jpg";
+import speech1 from "./speech1.jpg";
 
 export const categories = {
   hearing: {
@@ -8,7 +11,7 @@ export const categories = {
         "id": 1,
         "title": "The Importance of Early Hearing Screening for Children",
         "summary": "Why early hearing screening is crucial for children's development.",
-        "image": hearing4,
+        "image": hearing1,
         "sections": [
           {
             "heading": "Introduction",
@@ -40,7 +43,7 @@ export const categories = {
         "id": 2,
         "title": "Understanding Cochlear Implants: A Lifeline for Children and Adults with Hearing Loss",
         "summary": "An overview of cochlear implants and their role in improving hearing for individuals with severe to profound hearing loss.",
-        "image": hearing4,
+        "image": hearing2,
         "sections": [
           {
             "heading": "Introduction",
@@ -80,7 +83,7 @@ export const categories = {
         "id": 3,
         "title": "The Role of Audiology in Cochlear Implant Rehabilitation",
         "summary": "How Audiologists help maximize the effectiveness of cochlear implants through rehabilitation and therapy.",
-        "image": hearing4,
+        "image": hearing3,
         "sections": [
           {
             "heading": "Introduction",
@@ -108,7 +111,7 @@ export const categories = {
         "id": 4,
         "title": "Auditory Verbal Therapy: Enhancing Communication for Children with Cochlear Implants",
         "summary": "A comprehensive overview of Auditory Verbal Therapy (AVT) and its importance in helping children with cochlear implants develop spoken language and communication skills.",
-        "image": hearing4,
+        "image": hearing1,
         "sections": [
           {
             "heading": "Introduction",
@@ -140,7 +143,7 @@ export const categories = {
         "id": 5,
         "title": "The Importance of Family Involvement in Audiological Interventions",
         "summary": "An overview of the critical role family involvement plays in the success of audiological interventions like cochlear implants, hearing aids, and speech therapy for children with hearing loss.",
-        "image": hearing4,
+        "image": hearing1,
         "sections": [
           {
             "heading": "Introduction",
@@ -181,7 +184,7 @@ export const categories = {
         "id": 1,
         "title": "Understanding Speech and Hearing Disorders in Children",
         "summary": "An in-depth look at the types, causes, and treatments of speech and hearing disorders in children.",
-        "image": hearing4,
+        "image": speech1,
         "sections": [
           {
             "heading": "Introduction",
@@ -218,7 +221,7 @@ export const categories = {
         "id": 1,
         "title": "The Importance of Family Involvement in Audiological Interventions",
         "summary": "An overview of the critical role family involvement plays in the success of audiological interventions like cochlear implants, hearing aids, and speech therapy for children with hearing loss.",
-        "image": hearing4,
+        "image": hearing1,
         "sections": [
           {
             "heading": "Introduction",
