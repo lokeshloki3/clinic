@@ -19,7 +19,7 @@ export const categories = {
           },
           {
             "heading": "The Impact of Hearing Loss on Child Development",
-            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.<br><br/><i>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy.</i> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
+            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.<br><br/><em>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy.</em> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
           },
           {
             "heading": "Screening Methods and Protocols",
@@ -71,7 +71,7 @@ export const categories = {
           },
           {
             "heading": "Challenges and Considerations",
-            "content": "While cochlear implants have revolutionized the lives of individuals with hearing loss, the success of implantation depends on several factors, including the age of implantation, the cause of hearing loss, and the patient's commitment to therapy. Research has shown that earlier implantation leads to better outcomes in terms of language development and social integration.<br><br/><i>However, post-implantation therapy remains crucial, as cochlear implants do not restore normal hearing but instead provide a new way of hearing that requires consistent training.</i> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
+            "content": "While cochlear implants have revolutionized the lives of individuals with hearing loss, the success of implantation depends on several factors, including the age of implantation, the cause of hearing loss, and the patient's commitment to therapy. Research has shown that earlier implantation leads to better outcomes in terms of language development and social integration.<br><br/><em>However, post-implantation therapy remains crucial, as cochlear implants do not restore normal hearing but instead provide a new way of hearing that requires consistent training.</em> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
           },
           {
             "heading": "Conclusion",
@@ -229,7 +229,7 @@ export const categories = {
           },
           {
             "heading": "The Impact of Hearing Loss on Child Development",
-            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.<br><br/><i>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy.</i> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
+            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.<br><br/><em>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy.</em> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
           },
           {
             "heading": "Screening Methods and Protocols",
