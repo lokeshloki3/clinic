@@ -32,7 +32,7 @@ const BookAppointment = () => {
           <div className="mb-4">
             <p className="text-gray-700">
               <strong>Phone:</strong> 
-              <a href="tel:+918103712273" className="text-blue-600 hover:text-blue-500 hover:underline ml-1">+91 99999 99999</a>
+              <a href="tel:+918103712273" className="text-blue-600 hover:text-blue-500 hover:underline ml-1">+91 81037 12273</a>
             </p>
           </div>
 
