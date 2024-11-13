@@ -27,7 +27,7 @@ const ContentPage = () => {
       </div>
 
       {/* Blog Content */}
-      <div className="border border-blue-200 rounded-xl overflow-hidden p-4 mb-8 shadow-md">
+      <div className="border border-blue-200 rounded-xl overflow-hidden p-4 md:p-10 mb-8 shadow-md">
         <img className="rounded-lg mb-4" src={selectedContent.image} alt={selectedContent.title} />
 
         <h1 className="text-3xl font-bold mb-6 text-center">{selectedContent.title}</h1>
@@ -36,7 +36,7 @@ const ContentPage = () => {
         {selectedContent.sections.map((section, index) => (
           <section key={index}>
             <h2 className="text-2xl font-semibold text-gray-700 mt-8">{section.heading}</h2>
-            <p className="text-gray-600 mt-2">{section.content}</p>
+            <p className="text-gray-600 mt-2" dangerouslySetInnerHTML={{ __html: section.content || '' }}></p>
           </section>
         ))}
       </div>
