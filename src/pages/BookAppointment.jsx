@@ -43,6 +43,17 @@ const BookAppointment = () => {
             </p>
           </div>
 
+          {/* Working hours section added here */}
+          <div className="mb-2">
+            <p className="text-gray-700 flex justify-evenly">
+              <strong>Working Hours:</strong>
+              <div>
+                <span className='ml-3'>Monday to Saturday: 10 AM - 6 PM</span><br />
+                <span className='ml-3'>Sunday: Closed</span>
+              </div>
+            </p>
+          </div>         
+
           {/* New line added here */}
           <div className="mb-4">
             <p className="text-gray-700">

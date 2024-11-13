@@ -28,6 +28,13 @@ const Contact = () => {
             Email: <a href="mailto:cortihear@gmail.com" className="text-blue-600 hover:text-blue-500 hover:underline">cortihear@gmail.com</a>
           </p>
 
+          {/* Added working hours section */}
+          <p className="text-gray-500">
+            <strong>Working Hours:</strong><br />
+            Monday to Saturday: 10 AM - 6 PM<br />
+            Sunday: Closed
+          </p>          
+
           <div className="flex justify-center">
             <a href="https://wa.me/918103712273" target="_blank" rel="noopener noreferrer" className="flex items-center text-green-600 hover:text-green-500 transition duration-200">
               <FaWhatsapp className="text-xl mr-2" />
