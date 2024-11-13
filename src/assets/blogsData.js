@@ -16,11 +16,7 @@ export const categories = {
           },
           {
             "heading": "The Impact of Hearing Loss on Child Development",
-            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.PLOS"
-          },
-          {
-            "heading": "",
-            "content": "<p>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy. For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>.</p>"
+            "content": "Children with hearing loss can face substantial delays in speech and language development. Early hearing is essential for acquiring both spoken language and later cognitive skills. Studies show that children with untreated hearing loss struggle with language comprehension, making it difficult to grasp complex concepts and engage in social communication.<br><br/><i>Early identification allows healthcare professionals to offer solutions such as hearing aids, cochlear implants, or speech therapy.</i> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
           },
           {
             "heading": "Screening Methods and Protocols",
@@ -68,15 +64,11 @@ export const categories = {
           },
           {
             "heading": "Techniques used in AVT include:",
-            "content": "• <strong>Sound Awareness:</strong> The first step in therapy is helping the patient become aware of sound in their environment.<br><br>• <strong>Speech Development:</strong> Building the ability to produce speech by reinforcing the connection between sounds and speech patterns.<br><br>• <strong>Language Acquisition:</strong> Expanding vocabulary and fostering communication skills to ensure the child or adult can understand and use language effectively."
+            "content": "<br/>• <strong>Sound Awareness:</strong> The first step in therapy is helping the patient become aware of sound in their environment.<br><br>• <strong>Speech Development:</strong> Building the ability to produce speech by reinforcing the connection between sounds and speech patterns.<br><br>• <strong>Language Acquisition:</strong> Expanding vocabulary and fostering communication skills to ensure the child or adult can understand and use language effectively."
           },
           {
             "heading": "Challenges and Considerations",
-            "content": "While cochlear implants have revolutionized the lives of individuals with hearing loss, the success of implantation depends on several factors, including the age of implantation, the cause of hearing loss, and the patient's commitment to therapy. Research has shown that earlier implantation leads to better outcomes in terms of language development and social integration."
-          },
-          {
-            "heading": "",
-            "content": "<p>However, post-implantation therapy remains crucial, as cochlear implants do not restore normal hearing but instead provide a new way of hearing that requires consistent training. For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>.</p>"
+            "content": "While cochlear implants have revolutionized the lives of individuals with hearing loss, the success of implantation depends on several factors, including the age of implantation, the cause of hearing loss, and the patient's commitment to therapy. Research has shown that earlier implantation leads to better outcomes in terms of language development and social integration.<br><br/><i>However, post-implantation therapy remains crucial, as cochlear implants do not restore normal hearing but instead provide a new way of hearing that requires consistent training.</i> For more info <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208050' target='_blank' class='text-blue-600 underline'>PLOS</a>."
           },
           {
             "heading": "Conclusion",
@@ -132,7 +124,7 @@ export const categories = {
           },
           {
             "heading": "Research on AVT for Cochlear Implant Users",
-            "content": "Research supports the efficacy of AVT in helping children with cochlear implants develop listening and spoken language skills. A study published in the Journal of Deaf Studies and Deaf Education found that children who received early intervention with AVT showed significant improvements in speech perception, language comprehension, and overall communication compared to those who received less intensive intervention (Geers, 2003). Early implantation combined with intensive AVT leads to faster acquisition of speech and language skills, especially when the therapy begins before the age of 18 months.<br><br/>Furthermore, a systematic review by The Cochlear Implant Speech Perception Study indicated that children who underwent AVT demonstrated improved auditory comprehension and expressive language skills compared to those who used sign language or other communication methods (Kirk et al., 2007). The study found that consistent AVT, combined with regular auditory assessments and cochlear implant mapping, resulted in optimal communication outcomes for children."
+            "content": "Research supports the efficacy of AVT in helping children with cochlear implants develop listening and spoken language skills. A study published in the <i>Journal of Deaf Studies and Deaf Education</i> found that children who received early intervention with AVT showed significant improvements in speech perception, language comprehension, and overall communication compared to those who received less intensive intervention (Geers, 2003). Early implantation combined with intensive AVT leads to faster acquisition of speech and language skills, especially when the therapy begins before the age of 18 months.<br><br/>Furthermore, a systematic review by <i>The Cochlear Implant Speech Perception Study</i> indicated that children who underwent AVT demonstrated improved auditory comprehension and expressive language skills compared to those who used sign language or other communication methods (Kirk et al., 2007). The study found that consistent AVT, combined with regular auditory assessments and cochlear implant mapping, resulted in optimal communication outcomes for children."
           },
           {
             "heading": "Challenges in Auditory Verbal Therapy",
