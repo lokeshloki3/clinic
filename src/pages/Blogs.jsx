@@ -4,7 +4,7 @@ import { categories } from '../assets/blogsData';
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='mb-10'>
       <div className="text-center mt-16 text-3xl pt-10 text-gray-500 mb-8">
         <p>
           <span className="text-gray-700 font-medium">Blogs</span>

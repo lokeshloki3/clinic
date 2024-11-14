@@ -61,7 +61,7 @@ const BookAppointment = () => {
           {/* Appointment Scheduling Instruction */}
           <div className="mb-4">
             <p className="text-gray-700">
-              <strong>Click on 'Book Appointment' above to schedule your appointment.</strong>
+              <strong>Click on 'Book Appointment' above to schedule your online appointment.</strong>
             </p>
           </div>
 
