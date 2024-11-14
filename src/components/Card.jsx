@@ -18,8 +18,8 @@ const Card = ({ review, isTruncated, setIsTruncated }) => {
             />
             
             <div>
-                <p className="text-sm sm:text-lg font-semibold">{review.name}</p>
-                <p className="text-sm sm:text-sm font-semibold">{review.patient}</p>
+                <p className="text-base sm:text-lg font-semibold">{review.name}</p>
+                <p className="text-sm sm:text-base font-semibold">{review.patient}</p>
             </div>
 
             <p className="text-gray-800 text-sm sm:text-base mt-2 px-1 inline">
