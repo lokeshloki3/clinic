@@ -1,8 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import { assets } from "../assets/assets";
 
 const Header = ({ setIsModalOpen }) => {
-  const navigate = useNavigate();
 
   const handleBookAppointment = () => {
     setIsModalOpen(true);
@@ -45,7 +43,7 @@ const Header = ({ setIsModalOpen }) => {
           EX-Audiologist AIIMS, Delhi
         </p> */}
         <div
-          className="text-center text-black text-sm md:text-base py-2 px-6 rounded-lg"
+          className="text-center text-black text-sm md:text-base rounded-lg"
           // style={{
           //   backgroundColor: '#8376A1',
           // }}
@@ -56,7 +54,7 @@ const Header = ({ setIsModalOpen }) => {
         </div>
 
         {/* Experience Section */}
-        <div className="flex justify-center gap-4 mb-2">
+        <div className="flex justify-center gap-4 mb-2 mt-2">
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe1} alt="expe 1" />
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe2} alt="expe 2" />
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe3} alt="expe 3" />
