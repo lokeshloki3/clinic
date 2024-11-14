@@ -39,7 +39,7 @@ const Navbar = ({ setIsModalOpen }) => {
       </ul>
 
       {/* WhatsApp Link and Book Appointment Button */}
-      <div className="flex items-center">
+      <div className="flex items-center md:mr-10">
         {/* WhatsApp Link */}
         <a 
           href="https://wa.me/918103712273" 
