@@ -11,7 +11,7 @@ const SpecialityMenu = () => {
     >
       <h1 className="text-3xl font-medium">Our Specialities</h1>
       <p className="sm:w-1/3 text-center text-lg sm:text-xl">
-        Click to book your online appointment.
+        Click to book your online appointment
       </p>
       <div className="flex flex-wrap sm:justify-center gap-4 pt-5 w-full">
         {specialityData.map((item, index) => (

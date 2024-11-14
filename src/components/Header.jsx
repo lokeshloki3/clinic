@@ -8,31 +8,31 @@ const Header = ({ setIsModalOpen }) => {
 
   return (
     <div
-      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 bg-blue-600"
-      style={{
-        backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
-        backgroundSize: 'cover',
-        // backgroundPosition: 'center',
-        // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
-      }}
+      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 bg-[#5F6FFF]"
+      // style={{
+      //   backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
+      //   backgroundSize: 'cover',
+      //   // backgroundPosition: 'center',
+      //   // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
+      // }}
     >
       {/* <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]"> */}
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px] lg:mt-[-90px] lg:mb-0">
-        <p className="text-3xl md:text-4xl lg:text-4xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-8 py-10 m-auto md:py-[10vw] md:mb-[-30px] lg:mt-[-40px] lg:mb-0">
+        <p className="text-3xl md:text-4xl lg:text-4xl text-white font-semibold">
           Empowering Communication and <br /> Hearing Health, All Online
         </p>
         <button
           onClick={handleBookAppointment}
-          className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 translate-all duration-300"
+          className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-lg m-auto md:m-0 hover:scale-105 translate-all duration-300"
         >
           Consult with our Specialists{" "}
           <img className="w-3" src={assets.arrow_icon} alt="Arrow Icon" />
         </button>
       </div>
 
-      <div className="md:w-1/2 bg-slate-100 rounded-lg ">
+      <div className="md:w-1/2 rounded-lg flex flex-col justify-center items-center">
         <img
-          className="w-full h-auto rounded-lg pt-6"
+          className="w-[90%] h-auto rounded-lg pt-6"
           src={assets.header_img}
           alt="Header"
         />
@@ -43,14 +43,14 @@ const Header = ({ setIsModalOpen }) => {
           EX-Audiologist AIIMS, Delhi
         </p> */}
         <div
-          className="text-center text-black text-sm md:text-base rounded-lg"
+          className="text-center text-white rounded-lg "
           // style={{
           //   backgroundColor: '#8376A1',
           // }}
         >
-          <p className='text-xl'>Dr. Sonam Sharma</p>
-          <p>BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
-          <p>EX-Audiologist AIIMS, Delhi</p>
+          <p className='text-xl font-semibold'>Dr. Sonam Sharma</p>
+          <p className="text-sm md:text-[15px]">BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
+          <p className="text-sm md:text-[15px]">EX-Audiologist AIIMS, Delhi</p>
         </div>
 
         {/* Experience Section */}
