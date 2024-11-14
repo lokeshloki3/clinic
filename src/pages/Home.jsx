@@ -11,7 +11,8 @@ const Home = ({ setIsModalOpen }) => {
   return (
     <div>
       <h1 className="text-center m-8 text-3xl mt-24 font-medium md:text-5xl">Welcome to Cortihear</h1>
-      <Header />
+      {/* Passing down setIsModalOpen */}
+      <Header setIsModalOpen={setIsModalOpen}/>
       <SpecialityMenu />
 
       {/* Button to open the appointment modal */}

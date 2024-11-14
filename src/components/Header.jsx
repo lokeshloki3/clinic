@@ -1,11 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import { assets } from "../assets/assets";
 
-const Header = () => {
+const Header = ({ setIsModalOpen }) => {
   const navigate = useNavigate();
 
   const handleBookAppointment = () => {
-    navigate('/book');
+    setIsModalOpen(true);
   };
 
   return (
