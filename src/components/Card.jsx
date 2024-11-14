@@ -22,7 +22,7 @@ const Card = ({ review, isTruncated, setIsTruncated }) => {
                 <p className="text-sm sm:text-sm font-semibold">{review.patient}</p>
             </div>
 
-            <p className="text-gray-800 text-xs sm:text-base mt-2 px-1 inline">
+            <p className="text-gray-800 text-sm sm:text-base mt-2 px-1 inline">
                 {isTruncated ? truncateText(review.text, wordLimit) : review.text}
                 <span 
                     onClick={() => setIsTruncated(!isTruncated)} // Toggle truncated text

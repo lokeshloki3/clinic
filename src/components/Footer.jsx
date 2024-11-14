@@ -5,52 +5,52 @@ const Footer = () => {
   return (
     <div className="border-t-2 border-gray-300">
       <div className="md:mx-10">
-        <div className="flex flex-col sm:grid grid-flow-col gap-14 my-10 mt-10 text-sm md:text-base">
+        <div className="flex flex-col sm:grid grid-flow-col gap-14 my-10 mt-10 text-sm md:text-sm">
           {/* Contact Section */}
           <div>
-            <p className="text-xl md:text-2xl font-medium mb-5">
+            <p className="text-lg md:text-xl font-medium">
               Feel free to contact
             </p>
             <div className="flex space-x-4 mt-3">
               <a href="https://www.instagram.com/cortihear/" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className="text-gray-600 hover:text-gray-800 text-2xl md:text-3xl" />
+                <FaInstagram className="text-gray-600 hover:text-gray-800 text-lg md:text-2xl" />
               </a>
-              <FaTwitter className="text-gray-600 hover:text-gray-800 text-2xl md:text-3xl" />
-              <FaLinkedin className="text-gray-600 hover:text-gray-800 text-2xl md:text-3xl" />
+              <FaTwitter className="text-gray-600 hover:text-gray-800 text-lg md:text-2xl" />
+              <FaLinkedin className="text-gray-600 hover:text-gray-800 text-lg md:text-2xl" />
             </div>
           </div>
 
           {/* Company Section */}
           <div className="mr-20">
-            <p className="text-xl md:text-2xl font-medium mb-5">COMPANY</p>
+            <p className="text-lg md:text-xl font-medium mb-2">COMPANY</p>
             <ul className="flex flex-col gap-2 text-gray-600">
               <li>
-                <Link to="/" className="hover:text-gray-800 text-base md:text-lg">Home</Link>
+                <Link to="/" className="hover:text-gray-800 text-sm md:text-lg">Home</Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-gray-800 text-base md:text-lg">About Us</Link>
+                <Link to="/about-us" className="hover:text-gray-800 text-sm md:text-lg">About Us</Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-gray-800 text-base md:text-lg">Contact</Link>
+                <Link to="/contact" className="hover:text-gray-800 text-sm md:text-lg">Contact</Link>
               </li>
               <li>
-                <Link to="/privacy-policy" className="hover:text-gray-800 text-base md:text-lg">Privacy Policy</Link>
+                <Link to="/privacy-policy" className="hover:text-gray-800 text-sm md:text-lg">Privacy Policy</Link>
               </li>
             </ul>
           </div>
 
           {/* Get in Touch Section */}
           <div>
-            <p className="text-xl md:text-2xl font-medium mb-5">GET IN TOUCH</p>
+            <p className="text-lg md:text-xl font-medium mb-2">GET IN TOUCH</p>
             <ul className="flex flex-col gap-2 text-gray-600">
               <li>
-                <a href="tel:+918103712273" className="hover:text-gray-800 text-base md:text-lg">+91 81037 12273</a>
+                <a href="tel:+918103712273" className="hover:text-gray-800 text-sm md:text-lg">+91 81037 12273</a>
               </li>
               <li>
-                <a href="mailto:cortihear@gmail.com" className="hover:text-gray-800 text-base md:text-lg">cortihear@gmail.com</a>
+                <a href="mailto:cortihear@gmail.com" className="hover:text-gray-800 text-sm md:text-lg">cortihear@gmail.com</a>
               </li>
-              <li className="text-base md:text-lg">GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020</li>
-              <li className="text-gray-500 text-base md:text-lg">
+              <li className="text-sm md:text-lg">GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020</li>
+              <li className="text-gray-500 text-sm md:text-lg">
                 <strong>Working Hours:</strong><br />
                 Monday to Saturday: 10 AM - 6 PM<br />
                 Sunday: Closed
