@@ -10,6 +10,7 @@ import CategoryPage from './pages/CategoryPage';
 import ContentPage from './pages/ContentPage';
 import Blogs from './pages/Blogs';
 import AppointmentModal from './components/AppointmentModal';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/about-us" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/book" element={<BookAppointment />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />

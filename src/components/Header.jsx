@@ -45,11 +45,12 @@ const Header = () => {
           EX-Audiologist AIIMS, Delhi
         </p> */}
         <div
-          className="text-center text-black text-sm md:text-base py-4 px-6 rounded-lg"
+          className="text-center text-black text-sm md:text-base py-2 px-6 rounded-lg"
           // style={{
           //   backgroundColor: '#8376A1',
           // }}
         >
+          <p className='text-xl'>Dr. Sonam Sharma</p>
           <p>BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
           <p>EX-Audiologist AIIMS, Delhi</p>
         </div>

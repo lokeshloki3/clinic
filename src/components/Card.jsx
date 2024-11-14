@@ -14,7 +14,7 @@ const Card = ({ review, isTruncated, setIsTruncated }) => {
             <img 
                 src={review.image} 
                 alt={review.name} 
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mb-2" 
+                className="w-24 h-24 sm:w-28 sm:h-28 rounded-full mb-1"
             />
             
             <div>

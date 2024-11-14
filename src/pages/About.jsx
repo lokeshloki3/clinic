@@ -17,19 +17,21 @@ const About = () => {
       </div>
 
       <div className="my-10 flex flex-col md:flex-row gap-12">
-        <img
+        {/* <img
           className="w-full md:max-w-[360px]"
           src={assets.about_image}
-          alt=""
-        />
-        <div className="flex flex-col justify-center gap-3 md:w-2/4 text-sm text-gray-600">
-          <p>Cortihear Speech and Hearing Clinic is here to make exceptional audiology and 
+          alt="About Cortihear"
+        /> */}
+        <div className="flex flex-col justify-center gap-3 md:w-3/4 mx-auto text-sm text-gray-600">
+          <p className="text-base md:text-lg">
+            Cortihear Speech and Hearing Clinic is here to make exceptional audiology and 
             speech-language services accessible to you—wherever you are. We believe in breaking 
             down barriers to communication and hearing health, bringing expertise right to your 
             screen. With the guidance of Sonam Sharma, a dedicated Audiologist and Speech Language 
             Pathologist, our clinic is committed to providing convenient, high-quality care for 
-            individuals of all ages.</p>
-          <p>
+            individuals of all ages.
+          </p>
+          <p className="text-base md:text-lg">
             Ms. Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
             is the founder and CEO of Cortihear Speech and Hearing Clinic, a premier facility 
             dedicated to innovative and inclusive care in speech and audiology services. 
@@ -38,7 +40,7 @@ const About = () => {
             With a compassionate and client-focused approach, she has guided Cortihear to become a 
             trusted destination for comprehensive therapeutic services tailored to each client’s needs.
           </p>
-          <p>
+          <p className="text-base md:text-lg">
             The clinic operates with a dedication to neurodiversity, valuing and respecting the 
             unique ways in which neurodivergent children and adults experience the world. 
             Under her leadership, Cortihear upholds principles of inclusivity and empowerment, 
@@ -47,8 +49,8 @@ const About = () => {
             and communication support, all grounded in evidence-based practices that prioritize 
             long-term progress and emotional well-being.
           </p>
-          <b className="text-gray-800">Our Vision</b>
-          <p>
+          <b className="text-gray-800 text-base md:text-lg">Our Vision</b>
+          <p className="text-base md:text-lg">
             Our mission at Cortihear is to deliver accessible, personalized care in audiology 
             and speech therapy that improves lives. Through online and remote services, we empower 
             individuals to connect more deeply with the world around them, from the comfort of their 
@@ -57,6 +59,7 @@ const About = () => {
           </p>
         </div>
       </div>
+
       <div className="text-xl my-4">
         <p>
           WHY <span className="text-gray-700 font-semibold">CHOOSE US</span>
