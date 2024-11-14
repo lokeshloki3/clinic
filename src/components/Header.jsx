@@ -8,22 +8,22 @@ const Header = ({ setIsModalOpen }) => {
 
   return (
     <div
-      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 bg-[#5F6FFF]"
+      className="flex flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-20 bg-[#39868E]"
       // style={{
-      //   backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path
+      //   backgroundImage: `url(${assets.backgroundImage})`, // Replace with the actual image path bg-[#5F6FFF]
       //   backgroundSize: 'cover',
       //   // backgroundPosition: 'center',
       //   // backgroundAttachment: 'fixed', // Optional: Adds a parallax effect
       // }}
     >
       {/* <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]"> */}
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-8 py-10 m-auto md:py-[10vw] md:mb-[-30px] lg:mt-[-40px] lg:mb-0">
-        <p className="text-3xl md:text-4xl lg:text-4xl text-white font-semibold">
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-8 py-10 m-auto md:py-[10vw]">
+        <p className="text-3xl md:text-4xl text-white font-semibold">
           Empowering Communication and <br /> Hearing Health, All Online
         </p>
         <button
           onClick={handleBookAppointment}
-          className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-lg m-auto md:m-0 hover:scale-105 translate-all duration-300"
+          className="flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-lg hover:scale-105 duration-300"
         >
           Consult with our Specialists{" "}
           <img className="w-3" src={assets.arrow_icon} alt="Arrow Icon" />
@@ -36,6 +36,9 @@ const Header = ({ setIsModalOpen }) => {
           src={assets.header_img}
           alt="Header"
         />
+
+
+
         {/* <p className="text-center text-white mt-4 text-sm md:text-base">
           BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore
         </p>
