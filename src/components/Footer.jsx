@@ -25,16 +25,16 @@ const Footer = () => {
             <p className="text-lg md:text-xl font-medium mb-2">COMPANY</p>
             <ul className="flex flex-col gap-2 text-gray-600">
               <li>
-                <Link to="/" className="hover:text-gray-800 text-sm md:text-lg">Home</Link>
+                <Link to="/" className="hover:text-gray-800 text-sm md:text-base">Home</Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-gray-800 text-sm md:text-lg">About Us</Link>
+                <Link to="/about-us" className="hover:text-gray-800 text-sm md:text-base">About Us</Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-gray-800 text-sm md:text-lg">Contact</Link>
+                <Link to="/contact" className="hover:text-gray-800 text-sm md:text-base">Contact</Link>
               </li>
               <li>
-                <Link to="/privacy-policy" className="hover:text-gray-800 text-sm md:text-lg">Privacy Policy</Link>
+                <Link to="/privacy-policy" className="hover:text-gray-800 text-sm md:text-base">Privacy Policy</Link>
               </li>
             </ul>
           </div>
@@ -44,13 +44,13 @@ const Footer = () => {
             <p className="text-lg md:text-xl font-medium mb-2">GET IN TOUCH</p>
             <ul className="flex flex-col gap-2 text-gray-600">
               <li>
-                <a href="tel:+918103712273" className="hover:text-gray-800 text-sm md:text-lg">+91 81037 12273</a>
+                <a href="tel:+918103712273" className="hover:text-gray-800 text-sm md:text-base">+91 81037 12273</a>
               </li>
               <li>
-                <a href="mailto:cortihear@gmail.com" className="hover:text-gray-800 text-sm md:text-lg">cortihear@gmail.com</a>
+                <a href="mailto:cortihear@gmail.com" className="hover:text-gray-800 text-sm md:text-base">cortihear@gmail.com</a>
               </li>
-              <li className="text-sm md:text-lg">GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020</li>
-              <li className="text-gray-500 text-sm md:text-lg">
+              <li className="text-sm md:text-base">GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020</li>
+              <li className="text-gray-500 text-sm md:text-base">
                 <strong>Working Hours:</strong><br />
                 Monday to Saturday: 10 AM - 6 PM<br />
                 Sunday: Closed
