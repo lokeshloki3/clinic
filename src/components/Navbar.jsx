@@ -82,7 +82,7 @@ const Navbar = ({ setIsModalOpen }) => {
               alt="Close menu"
             />
           </div>
-          <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium text-sm md:text-base">
+          <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
             <NavLink onClick={() => setShowMenu(false)} to="/">
               <p className="px-4 py-2 rounded inline-block">HOME</p>
             </NavLink>
