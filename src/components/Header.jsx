@@ -17,7 +17,7 @@ const Header = ({ setIsModalOpen }) => {
       // }}
     >
       {/* <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]"> */}
-      <div className="md:w-1/2 flex flex-col items-start justify-center gap-8 py-10 m-auto md:py-[10vw]">
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-8 py-8 m-auto md:py-[10vw]">
         <p className="text-3xl md:text-4xl text-white font-semibold">
           Empowering Communication and <br /> Hearing Health, All Online
         </p>
