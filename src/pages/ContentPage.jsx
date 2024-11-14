@@ -14,7 +14,7 @@ const ContentPage = () => {
   }
 
   return (
-    <div className="container mx-auto p-6 mt-24">
+    <div className="container mx-auto p-6 mt-20">
       
       {/* Back Button */}
       <div className="flex justify-end mb-4">
@@ -30,7 +30,7 @@ const ContentPage = () => {
       <div className="border border-blue-200 rounded-xl overflow-hidden p-4 md:p-10 mb-8 shadow-md">
         <img className="rounded-lg mb-4" src={selectedContent.image} alt={selectedContent.title} />
 
-        <h1 className="text-3xl font-bold mb-6 text-center">{selectedContent.title}</h1>
+        <h1 className="text-3xl font-semibold mb-6 text-center">{selectedContent.title}</h1>
 
         {/* Dynamically Render Sections */}
         {selectedContent.sections.map((section, index) => (
