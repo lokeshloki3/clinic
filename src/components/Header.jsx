@@ -52,7 +52,7 @@ const Header = ({ setIsModalOpen }) => {
           //   backgroundColor: '#8376A1',
           // }}
         >
-          <p className='text-xl font-semibold'>Dr. Sonam Sharma</p>
+          <p className='text-xl font-semibold'>Sonam Sharma</p>
           <p className="text-sm md:text-[15px]">BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore</p>
           <p className="text-sm md:text-[15px]">EX-Audiologist AIIMS, Delhi</p>
         </div>

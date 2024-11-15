@@ -39,7 +39,7 @@ const Contact = () => {
           {/* Working Hours */}
           <p className="text-gray-500 text-base md:text-lg">
             <strong>Working Hours:</strong><br />
-            Monday to Saturday: 10 AM - 6 PM<br />
+            Monday to Saturday: 6 AM - 10 PM IST<br />
             Sunday: Closed
           </p>          
 

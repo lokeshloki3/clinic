@@ -52,7 +52,7 @@ const Footer = () => {
               <li className="text-sm md:text-base">GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020</li>
               <li className="text-gray-500 text-sm md:text-base">
                 <strong>Working Hours:</strong><br />
-                Monday to Saturday: 10 AM - 6 PM<br />
+                Monday to Saturday: 6 AM - 10 PM IST<br />
                 Sunday: Closed
               </li>
             </ul>
