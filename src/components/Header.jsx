@@ -1,5 +1,5 @@
 import { assets } from "../assets/assets";
-import "../index.css"
+import "../index.css";
 
 const Header = ({ setIsModalOpen }) => {
 

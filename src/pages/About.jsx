@@ -1,4 +1,5 @@
 import { assets } from "../assets/assets";
+import "../index.css";
 
 const About = () => {
   return (
@@ -16,12 +17,23 @@ const About = () => {
         </strong>
       </div>
 
-      <div className="my-10 flex flex-col md:flex-row gap-12">
-        {/* <img
-          className="w-full md:max-w-[360px]"
-          src={assets.about_image}
-          alt="About Cortihear"
-        /> */}
+      <div>
+        <div className="my-10 flex flex-col md:flex-row gap-12">
+          <img
+            className="w-full md:max-w-[360px] animate-left-right"
+            src={assets.about_image}
+            alt="About Cortihear"
+          />
+          <p className="text-base md:text-lg md:mt-3">
+              Ms. Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
+              is the founder and CEO of Cortihear Speech and Hearing Clinic, a premier facility 
+              dedicated to innovative and inclusive care in speech and audiology services. 
+              Her career is defined by a commitment to bridging the gap in accessible, high-quality 
+              care for individuals across India who face challenges with hearing, speech, and language. 
+              With a compassionate and client-focused approach, she has guided Cortihear to become a 
+              trusted destination for comprehensive therapeutic services tailored to each client’s needs.
+          </p>
+        </div>
         <div className="flex flex-col justify-center gap-3 md:w-3/4 mx-auto text-sm text-gray-600">
           <p className="text-base md:text-lg">
             Cortihear Speech and Hearing Clinic is here to make exceptional audiology and 
@@ -30,15 +42,6 @@ const About = () => {
             screen. With the guidance of Sonam Sharma, a dedicated Audiologist and Speech Language 
             Pathologist, our clinic is committed to providing convenient, high-quality care for 
             individuals of all ages.
-          </p>
-          <p className="text-base md:text-lg">
-            Ms. Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
-            is the founder and CEO of Cortihear Speech and Hearing Clinic, a premier facility 
-            dedicated to innovative and inclusive care in speech and audiology services. 
-            Her career is defined by a commitment to bridging the gap in accessible, high-quality 
-            care for individuals across India who face challenges with hearing, speech, and language. 
-            With a compassionate and client-focused approach, she has guided Cortihear to become a 
-            trusted destination for comprehensive therapeutic services tailored to each client’s needs.
           </p>
           <p className="text-base md:text-lg">
             The clinic operates with a dedication to neurodiversity, valuing and respecting the 
