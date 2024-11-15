@@ -1,4 +1,5 @@
 import { assets } from "../assets/assets";
+import "../index.css"
 
 const Header = ({ setIsModalOpen }) => {
 
@@ -32,7 +33,7 @@ const Header = ({ setIsModalOpen }) => {
 
       <div className="md:w-1/2 rounded-lg flex flex-col justify-center items-center">
         <img
-          className="w-[90%] h-auto rounded-lg pt-6"
+          className="w-[90%] h-auto rounded-lg pt-6 animate-left-right"
           src={assets.header_img}
           alt="Header"
         />
