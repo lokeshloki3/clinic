@@ -36,12 +36,7 @@ const Contact = () => {
             Email: <a href="mailto:cortihear@gmail.com" className="text-blue-600 hover:text-blue-500 hover:underline">cortihear@gmail.com</a>
           </p>
 
-          {/* Working Hours */}
-          <p className="text-gray-500 text-base md:text-lg">
-            <strong>Working Hours:</strong><br />
-            Monday to Saturday: 6 AM - 10 PM IST<br />
-            Sunday: Closed
-          </p>          
+
 
           {/* WhatsApp Link */}
           <div className="flex justify-center">
