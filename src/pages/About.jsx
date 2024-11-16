@@ -12,7 +12,7 @@ const About = () => {
 
       <div className="text-center mt-10">
         <strong className="text-2xl font-semibold text-gray-800 leading-tight">
-          Welcome to <span className="text-primary">Cortihear Speech and Hearing Clinic</span> – 
+          <span className="text-primary">Cortihear Speech and Hearing Clinic</span> – 
           Where <span className="text-primary">Every Voice is Heard</span> and <span className="text-primary">Every Sound is Cherished</span>
         </strong>
       </div>
