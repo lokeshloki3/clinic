@@ -19,7 +19,11 @@ const About = () => {
 
       <div>
         <div className="my-10 flex flex-col md:flex-row gap-12">
-
+          <img
+            className="w-full md:max-w-[360px] animate-left-right"
+            src={assets.about_image}
+            alt="About Cortihear"
+          />
           <p className="text-base md:text-lg md:mt-3">
               Ms. Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
               is the founder and CEO of Cortihear Speech and Hearing Clinic, a premier facility 
