@@ -8,7 +8,7 @@ const CategoryPage = () => {
   const category = categories[categoryId];
 
   if (!category) {
-    return <div>Category not found</div>;
+    return <div></div>;
   }
 
   return (
