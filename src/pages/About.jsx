@@ -25,7 +25,7 @@ const About = () => {
             alt="About Cortihear"
           />
           <p className="text-base md:text-lg md:mt-3">
-              Ms. Attapattu Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
+              Ms. Sonam Sharma, an accomplished Audiologist and Speech-Language Pathologist, 
               is the founder and CEO of Cortihear Speech and Hearing Clinic, a premier facility 
               dedicated to innovative and inclusive care in speech and audiology services. 
               Her career is defined by a commitment to bridging the gap in accessible, high-quality 
