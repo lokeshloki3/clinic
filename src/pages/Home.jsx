@@ -27,19 +27,15 @@ const Home = ({ setIsModalOpen }) => {
       
       <FeatureTable />
 
-      {/* Button to open the appointment modal */}
       <ActionButton 
         onClick={() => setIsModalOpen(true)} 
         label="Click to book your online appointment" 
       />
 
-      {/* Image Section 1 */}
       <ImageSection src={assets.book} alt="Book" />
       
-      {/* Image Section 2 */}
       <ImageSection src={assets.whycorti} alt="Why Cortihear" />
 
-      {/* Button to open the appointment modal */}
       <ActionButton 
         onClick={() => setIsModalOpen(true)} 
         label="Click to book your online appointment" 

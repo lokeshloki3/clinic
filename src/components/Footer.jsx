@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';  // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
@@ -6,7 +6,6 @@ const Footer = () => {
     <div className="border-t-2 border-gray-300">
       <div className="md:mx-10">
         <div className="flex flex-col sm:grid grid-flow-col gap-14 my-10 mt-10 text-sm md:text-sm">
-          {/* Contact Section */}
           <div>
             <p className="text-lg md:text-xl font-medium">
               Feel free to contact
@@ -20,7 +19,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Company Section */}
           <div className="mr-20">
             <p className="text-lg md:text-xl font-medium mb-2">COMPANY</p>
             <ul className="flex flex-col gap-2 text-gray-600">
@@ -39,7 +37,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Get in Touch Section */}
           <div>
             <p className="text-lg md:text-xl font-medium mb-2">GET IN TOUCH</p>
             <ul className="flex flex-col gap-2 text-gray-600">

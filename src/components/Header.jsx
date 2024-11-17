@@ -38,8 +38,6 @@ const Header = ({ setIsModalOpen }) => {
           alt="Header"
         />
 
-
-
         {/* <p className="text-center text-white mt-4 text-sm md:text-base">
           BASLP, AYJNISHD, Noida, Masters in Audiology, AIISH, Mysore
         </p>
@@ -57,7 +55,6 @@ const Header = ({ setIsModalOpen }) => {
           <p className="text-sm md:text-[15px]">EX-Audiologist AIIMS, Delhi</p>
         </div>
 
-        {/* Experience Section */}
         <div className="flex justify-center gap-4 mb-2 mt-2">
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe1} alt="expe 1" />
           <img className="w-11 h-11 rounded-full object-cover" src={assets.expe2} alt="expe 2" />

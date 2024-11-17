@@ -10,7 +10,6 @@ const Navbar = ({ setIsModalOpen }) => {
 
   return (
     <div className="fixed top-0 left-2 md:left-16 lg:left-32 right-2 md:right-16 lg:right-32 z-10 flex items-center justify-between text-sm md:text-base py-4 mb-5 border-b border-b-gray-400 bg-white">
-      {/* Logo */}
       <img 
         src={logo}
         onClick={() => navigate("/")}
@@ -18,7 +17,6 @@ const Navbar = ({ setIsModalOpen }) => {
         alt='logo'
       />
 
-      {/* Menu (Centering the Menu) */}
       <ul className="hidden md:flex items-center gap-5 font-medium text-sm md:text-base mx-auto">
         <NavLink to="/">
           <li className="py-1">HOME</li>
@@ -38,9 +36,7 @@ const Navbar = ({ setIsModalOpen }) => {
         </NavLink>
       </ul>
 
-      {/* WhatsApp Link and Book Appointment Button */}
       <div className="flex items-center md:mr-10">
-        {/* WhatsApp Link */}
         <a 
           href="https://wa.me/918103712273" 
           target="_blank" 
@@ -50,7 +46,6 @@ const Navbar = ({ setIsModalOpen }) => {
           <FaWhatsapp className="text-2xl md:text-3xl mr-3" />
         </a>
 
-        {/* Book Appointment Button */}
         <span 
           className='font-bold cursor-pointer text-sm md:text-base' 
           onClick={() => setIsModalOpen(true)}  // Open modal when clicked
@@ -58,7 +53,6 @@ const Navbar = ({ setIsModalOpen }) => {
           Book Appointment
         </span>
       </div>
-
 
       {/* Mobile Menu Toggle Button */}
       <div className="flex items-center gap-4">

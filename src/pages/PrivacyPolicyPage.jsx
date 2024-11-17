@@ -3,14 +3,12 @@ import React from 'react';
 const PrivacyPolicyPage = () => {
   return (
     <div>
-      {/* Privacy Policy Title */}
       <div className="text-center mt-20 text-3xl pt-10 text-gray-500">
         <p>
           PRIVACY <span className="text-gray-700 font-medium">POLICY</span>
         </p>
       </div>
 
-      {/* Privacy Policy Overview */}
       <div className="text-center mt-10">
         <strong className="text-2xl font-semibold text-gray-800 leading-tight">
           Privacy Protection at <span className="text-primary">Cortihear Speech and Hearing Clinic</span> – 
@@ -20,7 +18,6 @@ const PrivacyPolicyPage = () => {
 
       <div className="my-10 flex flex-col md:flex-row gap-12">
         <div className="flex flex-col justify-center gap-3 md:w-3/4 mx-auto text-sm text-gray-600">
-          {/* Overview */}
           <div className="my-6 text-sm text-gray-600">
             <p className="text-base md:text-lg">
               Cortihear Speech and Hearing Clinic is committed to safeguarding your privacy. This privacy policy outlines the types of personal information we collect, how we use it, and how we protect your information. Please read this privacy policy carefully to understand our views and practices regarding your personal data and how we treat it.
@@ -30,7 +27,6 @@ const PrivacyPolicyPage = () => {
             </p>
           </div>
 
-          {/* Section 1: General Information */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">1. General Information</p>
           </div>
@@ -41,7 +37,6 @@ const PrivacyPolicyPage = () => {
             <p className="text-base md:text-lg"><strong>Amendments:</strong> This Privacy Policy may be updated from time to time. Please review this page periodically to stay informed. If any significant changes are made, we will notify you via the contact details provided, or by updating the "Last Updated" date at the bottom of the page.</p>
           </div>
 
-          {/* Section 2: Collection, Use, and Disclosure of Information */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">2. Collection, Use, and Disclosure of Information</p>
           </div>
@@ -65,7 +60,6 @@ const PrivacyPolicyPage = () => {
             </ul>
           </div>
 
-          {/* Section 3: Communication with You */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">3. Communication with You</p>
           </div>
@@ -79,7 +73,6 @@ const PrivacyPolicyPage = () => {
             </ul>
           </div>
 
-          {/* Section 4: Your Rights Regarding Personal Data */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">4. Your Rights Regarding Personal Data</p>
           </div>
@@ -94,7 +87,6 @@ const PrivacyPolicyPage = () => {
             </ul>
           </div>
 
-          {/* Section 5: Security */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">5. Security</p>
           </div>
@@ -103,7 +95,6 @@ const PrivacyPolicyPage = () => {
             <p className="text-base md:text-lg">We use appropriate technical and organizational measures to protect your personal data. However, please note that no data transmission over the internet can be guaranteed to be 100% secure.</p>
           </div>
 
-          {/* Section 6: Display Advertising and Behavioral Advertising */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">6. Display Advertising and Behavioral Advertising</p>
           </div>
@@ -112,7 +103,6 @@ const PrivacyPolicyPage = () => {
             <p className="text-base md:text-lg">We use third-party advertising services like Google to deliver ads to you based on your browsing behavior. These ads may be targeted using cookies.</p>
           </div>
 
-          {/* Section 7: Contact Us */}
           <div className="my-6">
             <p className="text-xl md:text-2xl font-semibold text-gray-700">7. Contact Us</p>
           </div>

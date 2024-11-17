@@ -1,4 +1,3 @@
-// AppointmentModal.js
 import React, { useState } from 'react';
 
 const AppointmentModal = ({ isOpen, onClose }) => {
@@ -26,7 +25,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
       return;
     }
 
-    // Validate mobile number
     const mobileRegex = /^[0-9]{10}$/;
     if (!mobileRegex.test(formData.Mobile)) {
       alert("Please enter a valid mobile number (10 digits).");
@@ -75,7 +73,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
       <div className="bg-white rounded-xl shadow-lg pb-3 pt-3 pr-6 pl-6 max-w-md w-full">
         <h2 className="text-2xl font-bold mb-2 text-center text-gray-800">Book Appointment</h2>
         <form onSubmit={handleSubmit}>
-          {/* Name Field */}
+
           <div className="mb-2">
             <label className="block text-gray-600">Name</label>
             <input
@@ -88,7 +86,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Age Field */}
           <div className="mb-2">
             <label className="block text-gray-600">Age</label>
             <input
@@ -101,7 +98,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Gender Field */}
           <div className="mb-2">
             <label className="block text-gray-600">Gender</label>
             <select
@@ -118,7 +114,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             </select>
           </div>
 
-          {/* Areas of Concern Field */}
           <div className="mb-2">
             <label className="block text-gray-600">Areas of Concern</label>
             <select
@@ -136,7 +131,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             </select>
           </div>
 
-          {/* City Field */}
           <div className="mb-2">
             <label className="block text-gray-600">City</label>
             <input
@@ -149,7 +143,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Mobile Number Field */}
           <div className="mb-2">
             <label className="block text-gray-600">Mobile Number</label>
             <input
@@ -163,7 +156,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Email Address Field */}
           <div className="mb-2">
             <label className="block text-gray-600">Email Address</label>
             <input
@@ -176,7 +168,6 @@ const AppointmentModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Form Buttons */}
           <div className="flex justify-between mt-3">
             <button
               type="submit"

@@ -8,7 +8,6 @@ const FeatureTable = () => {
         <table className="table-auto w-full text-left border-collapse text-xs md:text-base">
           <thead>
             <tr>
-              {/* Applying width settings opposite of larger screen for small screen */}
               <th className="px-0 py-1 md:px-4 md:py-2 border-b font-semibold">Feature</th>
               <th className="px-0 py-1 md:px-4 md:py-2 border-b font-semibold">Cortihear Speech and Hearing Clinic</th>
               <th className="px-0 py-1 md:px-4 md:py-2 border-b font-semibold">Traditional Clinics</th>

@@ -1,18 +1,16 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { assets } from "../assets/assets"; // Adjust this if you have an image to include
+// import { assets } from "../assets/assets";
 
 const BookAppointment = () => {
   return (
     <div>
-      {/* Title Section */}
       <div className="text-center text-2xl md:text-3xl pt-10 text-gray-500 mt-16">
         <p>
           BOOK <span className="text-gray-700 font-semibold">AN APPOINTMENT</span>
         </p>
       </div>
 
-      {/* Main Content */}
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm md:text-base">
         {/* Appointment Image - Uncomment if you have an image */}
         {/* <img
@@ -21,9 +19,7 @@ const BookAppointment = () => {
           alt="Appointment"
         /> */}
 
-        {/* Contact Information */}
         <div className="flex flex-col justify-center items-start gap-6">
-          {/* Contact Section */}
           <p className="font-semibold text-lg md:text-xl text-gray-600">CONTACT US</p>
           
           <div className="mb-4">
@@ -47,7 +43,6 @@ const BookAppointment = () => {
             </p>
           </div>
 
-          {/* Working Hours Section */}
           <div className="mb-2">
             <p className="text-gray-700 flex justify-evenly">
               <strong>Working Hours:</strong>
@@ -58,14 +53,12 @@ const BookAppointment = () => {
             </p>
           </div>
 
-          {/* Appointment Scheduling Instruction */}
           <div className="mb-4">
             <p className="text-gray-700">
               <strong>Click on 'Book Appointment' above to schedule your online appointment.</strong>
             </p>
           </div>
 
-          {/* WhatsApp Link */}
           <div className="flex justify-center">
             <a href="https://wa.me/918103712273" target="_blank" rel="noopener noreferrer" className="flex items-center text-green-600 hover:text-green-500 transition duration-200">
               <FaWhatsapp className="text-xl mr-2" />
