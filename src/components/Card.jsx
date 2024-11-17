@@ -28,7 +28,7 @@ const Card = ({ review, isTruncated, setIsTruncated }) => {
                     onClick={() => setIsTruncated(!isTruncated)} // Toggle truncated text
                     className="text-blue-600 cursor-pointer ml-1"
                 >
-                    {isTruncated ? '...read more' : ' Show less'}
+                    {isTruncated ? '...Read More' : 'Show less'}
                 </span>
             </p>
         </div>
