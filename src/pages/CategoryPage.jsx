@@ -8,11 +8,11 @@ const CategoryPage = () => {
   const category = categories[categoryId];
 
   if (!category) {
-    return <div>Category not found</div>;
+    return <div className="mx-auto p-6 mt-24">Category not found</div>;
   }
 
   return (
-    <div className="container mx-auto p-6 mt-20">
+    <div className="mx-auto p-0 md:p-6 mt-24 md:mt-20">
       <h1 className="text-3xl mb-6 text-center text-gray-700 font-semibold">{category.title}</h1>
 
       <div className="flex justify-end mb-4">
