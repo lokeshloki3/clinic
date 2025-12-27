@@ -1,37 +1,43 @@
+import seemaVijay from "./seema-vijay.png";
+import vikram from "./vikram.png";
+import anjaliRohit from "./anjali-rohit.png";
+import sanjayMeera from "./sanjay-meera.png";
+import priyaHarish from "./priya-harish.png";
+
 const reviews = [
   {
     id: 1,
     name: "Seema and Vijay Rao",
     patient: "Parents of Arjun Rao (Stuttering Support)",
-    image: "/src/assets/seema-vijay.png",
+    image: seemaVijay,
     text: "We can’t thank the team at Cortihear enough for the incredible support they’ve given our child with stuttering. From the very first session, we could see how much they cared. The therapists have been so patient and understanding, working with our child to build confidence and improve their speech. It’s been amazing to see our child’s progress—they’re speaking more clearly and confidently every day. We’re so grateful for the personalized approach at Cortihear and the positive impact it’s had on our child’s communication skills!",
   },
   {
     id: 2,
-    name: "Vikram Sharma",
-    patient: "Adult Hearing Aid User",
-    image: "/src/assets/vikram.png",
-    text: "I can’t thank the team at Cortihear enough for helping me with my hearing aid. From the moment I walked in, they made the whole process so easy and stress-free. The staff really took the time to understand my needs and helped me choose the perfect hearing aid for my lifestyle. The adjustment period was quick, and I was amazed at how much better I could hear in everyday situations. I’m finally able to enjoy conversations, watch TV without cranking up the volume, and hear things I’ve been missing for years. I’m so grateful for the care and support I’ve received at Cortihear—it's truly made a huge difference in my life.",
-  },
-  {
-    id: 3,
     name: "Anjali and Rohit Patel",
     patient: "Parents of Aarav Patel (Cochlear Implant and AVT)",
-    image: "/src/assets/anjali-rohit.png",
+    image: anjaliRohit,
     text: "We are incredibly grateful to The Lead Audiologist and the team at Cortihear for their exceptional support throughout our child's cochlear implant journey. With her expert guidance in Auditory Verbal Therapy, our child has made remarkable progress in hearing and speech development. The personalized approach, patience, and dedication shown have made a significant difference, helping our child gain confidence in their communication. We are truly thankful for the nurturing environment at Cortihear, which has played a key role in our child's growth.",
   },
   {
-    id: 4,
+    id: 3,
     name: "Sanjay and Meera Singh",
     patient: "Parents of Ayaan Singh (Autism Support)",
-    image: "/src/assets/sanjay-meera.png",
+    image: sanjayMeera,
     text: "We’re incredibly grateful to the team at Cortihear for the amazing support they’ve given our child with autism. From the start, the therapists have been so understanding and patient, creating a comfortable environment where our child feels safe and supported. The personalized therapy plan has helped our child make real progress in communication and social skills. It’s been such a relief to see our child gain more confidence and start connecting with others in ways we didn’t think were possible. The team at Cortihear truly goes above and beyond, and we’re so thankful for everything they’ve done.",
+  },
+  {
+    id: 4,
+    name: "Vikram Sharma",
+    patient: "Adult Hearing Aid User",
+    image: vikram,
+    text: "I can’t thank the team at Cortihear enough for helping me with my hearing aid. From the moment I walked in, they made the whole process so easy and stress-free. The staff really took the time to understand my needs and helped me choose the perfect hearing aid for my lifestyle. The adjustment period was quick, and I was amazed at how much better I could hear in everyday situations. I’m finally able to enjoy conversations, watch TV without cranking up the volume, and hear things I’ve been missing for years. I’m so grateful for the care and support I’ve received at Cortihear—it's truly made a huge difference in my life.",
   },
   {
     id: 5,
     name: "Priya and Harish Kumar",
     patient: "Parents of Ria Kumar (Hearing Aids)",
-    image: "/src/assets/priya-harish.png",
+    image: priyaHarish,
     text: "We’re so thankful to the team at Cortihear for providing our child with a hearing aid that’s truly made a difference. From the very first consultation, the team was so attentive to our needs and helped us choose the right hearing aid for our child. The fitting was smooth, and the follow-up care has been amazing. Our child is now hearing things they never did before, and it’s been incredible to see their confidence grow. We’re really grateful for the support and care we've received from everyone at Cortihear!",
   },
   // {
