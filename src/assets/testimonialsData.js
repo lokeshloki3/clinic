@@ -29,7 +29,7 @@ const reviews = [
   {
     id: 4,
     name: "Vikram Sharma",
-    patient: "Adult Hearing Aid Use",
+    patient: "Adult Hearing Aid User",
     image: vikram,
     text: "I can’t thank the team at Cortihear enough for helping me with my hearing aid. From the moment I walked in, they made the whole process so easy and stress-free. The staff really took the time to understand my needs and helped me choose the perfect hearing aid for my lifestyle. The adjustment period was quick, and I was amazed at how much better I could hear in everyday situations. I’m finally able to enjoy conversations, watch TV without cranking up the volume, and hear things I’ve been missing for years. I’m so grateful for the care and support I’ve received at Cortihear—it's truly made a huge difference in my life.",
   },
