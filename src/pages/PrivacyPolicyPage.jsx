@@ -33,7 +33,7 @@ const PrivacyPolicyPage = () => {
 
           <div className="text-sm text-gray-600">
             <p className="text-base md:text-lg"><strong>About the Privacy Policy:</strong> Cortihear's Privacy Policy (the “Privacy Policy”) governs the processing of personal data collected from natural persons (“you” and “your”) through the online platform available at https://www.cortihear.com, the related domain names, and services (collectively, “Cortihear Speech and Hearing Clinic”).</p>
-            <p className="text-base md:text-lg mt-1"><strong>Owner of Cortihear:</strong> Cortihear Speech and Hearing Clinic is owned and operated by Sonam Sharma (Sole Proprietor), located at GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020.</p>
+            <p className="text-base md:text-lg mt-1"><strong>Owner of Cortihear:</strong> Cortihear Speech and Hearing Clinic is owned and operated by a qualified Audiologist, located at GM-13, D.D. Nagar, Kushwah Market, Gwalior - 474020.</p>
             <p className="text-base md:text-lg mt-1"><strong>Amendments:</strong> This Privacy Policy may be updated from time to time. Please review this page periodically to stay informed. If any significant changes are made, we will notify you via the contact details provided, or by updating the "Last Updated" date at the bottom of the page.</p>
           </div>
 

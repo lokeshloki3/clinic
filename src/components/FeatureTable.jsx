@@ -41,7 +41,7 @@ const FeatureTable = () => {
             </tr>
             <tr>
               <td className="px-0 py-1 md:px-4 md:py-2 border-b">Expert-Led, Client-Focused Care</td>
-              <td className="px-0 py-1 md:px-4 md:py-2 border-b">Yes – Led by Sonam Sharma, an experienced Audiologist and Speech Language Pathologist, Cortihear provides expert, client-centered services.</td>
+              <td className="px-0 py-1 md:px-4 md:py-2 border-b">Yes – Led by our team of experienced Audiologists and Speech Language Pathologists, Cortihear provides expert, client-centered services.</td>
               <td className="px-0 py-1 md:px-4 md:py-2 border-b">Depends on Clinic – Many clinics offer skilled professionals but may lack a client-centered, personalized focus.</td>
             </tr>
             <tr>
